@@ -19,13 +19,12 @@ document.addEventListener('keydown', function (event) {
 
 // Opcion 1 : crear div con js, posteriormente al presionar las teclas cambia de color.
 // Cambio de color al presionar Q, W, E.
-// Creo el elemento con js
+// Creo el elemento con js 
 let newDiv = document.createElement("div");
 
 // aplico estilos con js
  newDiv.style.width = "200px";
  newDiv.style.height = "200px";
- newDiv.style.border = "solid"; /* agrego un border solo de manera opcional */
 
 // agrego elemento creado pero ademas lo guardo en una variable
 let newDiv1 = document.body.appendChild(newDiv)
@@ -46,7 +45,7 @@ document.addEventListener('keydown', function (event) {
 
 
 
-// Opcion 2 : Se crea el div junto con los estilos al presionar cada tecla (quitar comentario)
+// Opcion 2 : Se crea el div junto con los estilos al presionar cada tecla 
 
 // let newDiv2 = document.createElement("div");
 
@@ -61,19 +60,16 @@ document.addEventListener('keydown', function (event) {
 //         nuevoDiv.style.backgroundColor = 'purple';
 //         nuevoDiv.style.width = "200px";
 //         nuevoDiv.style.height = "200px";
-//         nuevoDiv.style.border = "solid";
 //         /* Cambiar a color purple */
 //     } else if (event.key === 'w') {
 //         nuevoDiv.style.backgroundColor = 'gray';
 //         nuevoDiv.style.width = "200px";
 //         nuevoDiv.style.height = "200px";
-//         nuevoDiv.style.border = "solid";
 //         /* Cambiar a color gray */
 //     } else if (event.key === 'e') {
 //         nuevoDiv.style.backgroundColor = 'brown';
 //         nuevoDiv.style.width = "200px";
 //         nuevoDiv.style.height = "200px";
-//         nuevoDiv.style.border = "solid";
 //         /* Cambiar a color brown */
 //     }
 // })
